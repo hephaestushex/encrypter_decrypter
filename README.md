@@ -10,3 +10,7 @@ Character Set:
     '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 
     '!', '@', '#', '$', '%', '&', '*', '(', ')', '-', '_', '=', '+', 
     '[', ']', '{', '}', ';', ':', ',', '.', '<', '>', '/', '?', '|', ' ', '"'
+
+Code will convert all uppercase to lower case.
+
+No dependencies are required. 
