@@ -1,6 +1,6 @@
 ﻿# encrypter_decrypter
 
-#WARNING
+# WARNING
 Do not use this for important things, this is a basic encrypter that can potentially be cracked. This is simply for fun
 
 Character Set:
