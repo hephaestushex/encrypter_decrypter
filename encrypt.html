@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encrypter</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Encrypter</h1>
+    <p>Welcome to the encrypter service!</p>
+    <form action="">
+        <label for="msg">Text to encrypt: </label>
+        <input type="text" id="msg" name="msg"><br>
+        <p>Visit this <a href="/chars.html">page</a> for characters allowed.</p><br><br>
+
+        <label for="rkey">Key to encrypt with: </label>
+        <input type="text" id="rkey" name="rkey"><br>
+
+        <p>Key is 3 characters, 0 or 1, anything other than that is parsed as 0</p><br><br>
+        
+        <input type="checkbox" id="inkey" name="inkey" value="inkey">
+        <label for="inkey">Include key in encrypted message?</label><br><br>
+
+        <input class="button" type="button" value="Encrypt" onclick="encrypt(this.form)">
+      </form>
+
+      <h2>Your encrypted message is:</h2>
+      <p id="finalmsg"></p>
+      <br>
+      <h2><a href="/index.html">Home</a></h2>
+</body>
+</html>

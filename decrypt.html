@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decrypter</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Decrypter</h1>
+    <p>Welcome to the decrypter service!</p>
+    
+    <form action="">
+        <label for="msg" id="msg" >Text to decrypt: </label>
+        <input type="text" name="msg"><br><br>
+
+        <label for="rkey"  id="rkey" >Key to decrypt with(only if you know it): </label>
+        <input type="text"name="rkey"><br>
+
+        <p>Key is 3 characters, 0 or 1</p><br><br>
+
+        <input class="button" type="button" value="Decrypt" onclick="decrypt(this.form)">
+      </form>
+
+      <h2>Your decrypted message is:</h2>
+      <p id="finalmsg"></p>
+      <br>
+      <h2><a href="/index.html">Home</a></h2>
+</body>
+</html>
